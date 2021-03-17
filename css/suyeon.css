@@ -2,21 +2,21 @@
 
 @font-face {
     font-family:AppleSDGothicNeoB;
-    src:url(../font/AppleSDGothicNeoB.eot) format('eot');
-    src:url(../font/AppleSDGothicNeoB.woff) format('woff');
-    src:url(../font/AppleSDGothicNeoB.ttf) format('truetype');
+    src:url(https://cdn.jsdelivr.net/gh/choi-suyeon/galaxy/font/AppleSDGothicNeoB.eot) format('eot');
+    src:url(https://cdn.jsdelivr.net/gh/choi-suyeon/galaxy/font/AppleSDGothicNeoB.woff) format('woff');
+    src:url(https://cdn.jsdelivr.net/gh/choi-suyeon/galaxy/font/AppleSDGothicNeoB.ttf) format('truetype');
 }
 @font-face {
     font-family:AppleSDGothicNeoL;
-    src:url(../font/AppleSDGothicNeoL.eot) format('eot');
-    src:url(../font/AppleSDGothicNeoL.woff) format('woff');
-    src:url(../font/AppleSDGothicNeoL.ttf) format('truetype');
+    src:url(https://cdn.jsdelivr.net/gh/choi-suyeon/galaxy/font/AppleSDGothicNeoL.eot) format('eot');
+    src:url(https://cdn.jsdelivr.net/gh/choi-suyeon/galaxy/font/AppleSDGothicNeoL.woff) format('woff');
+    src:url(https://cdn.jsdelivr.net/gh/choi-suyeon/galaxy/font/AppleSDGothicNeoL.ttf) format('truetype');
 }
 @font-face {
     font-family:AppleSDGothicNeoM;
-    src:url(../font/AppleSDGothicNeoM.eot) format('eot');
-    src:url(../font/AppleSDGothicNeoM.woff) format('woff');
-    src:url(../font/AppleSDGothicNeoM.ttf) format('truetype');
+    src:url(https://cdn.jsdelivr.net/gh/choi-suyeon/galaxy/font/AppleSDGothicNeoM.eot) format('eot');
+    src:url(https://cdn.jsdelivr.net/gh/choi-suyeon/galaxy/font/AppleSDGothicNeoM.woff) format('woff');
+    src:url(https://cdn.jsdelivr.net/gh/choi-suyeon/galaxy/font/AppleSDGothicNeoM.ttf) format('truetype');
 }
 html,body {width:100%; transition: 1000ms; background-color:black; font-family:AppleSDGothicNeoB;}
 img {position: relative;}
