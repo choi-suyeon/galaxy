@@ -1,0 +1,319 @@
+*{margin:0; padding:0;}
+
+@font-face {
+    font-family:AppleSDGothicNeoB;
+    src:url(../font/AppleSDGothicNeoB.eot) format('eot');
+    src:url(../font/AppleSDGothicNeoB.woff) format('woff');
+    src:url(../font/AppleSDGothicNeoB.ttf) format('truetype');
+}
+@font-face {
+    font-family:AppleSDGothicNeoL;
+    src:url(../font/AppleSDGothicNeoL.eot) format('eot');
+    src:url(../font/AppleSDGothicNeoL.woff) format('woff');
+    src:url(../font/AppleSDGothicNeoL.ttf) format('truetype');
+}
+@font-face {
+    font-family:AppleSDGothicNeoM;
+    src:url(../font/AppleSDGothicNeoM.eot) format('eot');
+    src:url(../font/AppleSDGothicNeoM.woff) format('woff');
+    src:url(../font/AppleSDGothicNeoM.ttf) format('truetype');
+}
+html,body {width:100%; transition: 1000ms; background-color:black; font-family:AppleSDGothicNeoB;}
+img {position: relative;}
+p {color:#fff; font-size:2vw; position: relative;}
+li {list-style: none;}
+#ct0 {width:1px; height:1px;}
+.txt {text-align: center;}
+.center-image {
+    position: fixed;
+    top:26%;
+    left:37%;
+    opacity: 0;
+    transition: all 0.5s;
+}
+.center-image.active {
+    opacity: 1;
+}
+.warp {
+    width:100%;
+    height:100%;
+    position: relative;
+}
+section {
+    width:100%;
+    height:970px; 
+    /*border-top:1px solid #fff;*/
+    position: relative;
+}
+.bg {
+    width:100%;
+    height:970px;
+    position: fixed;
+}
+.s1 {
+    width:100%;
+}
+.s1 .logo {
+    width:62vw;
+    margin:0 auto;
+    padding-top:16vw;
+    box-sizing: border-box;
+}
+.s1 .scroll {
+    width:80px;
+    margin:0 auto;
+    margin-top:14vw;
+}
+.t1 {
+    width:30%;
+    float:left;
+}
+.t2 {
+    width:30%;
+    float:right;
+}
+.txt-left {
+    float:right;
+}
+.txt-right {
+    float:left;
+}
+.s9 img {
+    width:100%;
+    margin-top:10vw;
+}
+.s12 img {
+    width:100%;
+}
+.swiper1 {
+    width:62vw;
+}
+.swiper2 {
+    display: none;
+}
+.info h3 {
+    color:#ffa200;
+    font-size:1.2vw;
+    font-family:AppleSDGothicNeoL;
+}
+.info p {
+    font-size:1vw;
+    font-family:AppleSDGothicNeoL;
+    line-height: 1.5vw;
+}
+.portfolio {
+    width:28vw;
+    float:left;
+    text-align: center;
+    margin-top:20vw;
+}
+.portfolio h3 {
+    color:#fff;
+    font-size:2vw;
+    font-weight: normal;
+}
+.portfolio p {
+    font-size:1.5vw;
+}
+.s10, .s11{
+    background-color:#ffa200;
+}
+.s11 .design {
+    width:62vw;
+    float:left;
+    margin-left:8vw;
+}
+.s11 .design ul li {
+    padding:1vw;
+    float:left;
+    position: relative;
+    z-index: 150;
+}
+.bgct {
+    position: absolute;
+}
+footer {
+    width:100%;
+    height:2vw;
+    background-color:#ffa200;
+    margin:0 auto;
+    position: relative;
+}
+footer p {
+    color:#fff;
+    font-size:0.7vw;
+    text-align: center;
+    line-height: 2vw;
+    font-family:AppleSDGothicNeoL;
+}
+.focus {
+    width:100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    position: fixed;
+    z-index: 200;
+    left:0;
+    top:0;
+    display: none;
+}
+.focus .container {
+    width:60%;
+    margin:0 auto;
+    margin-top:5vw;
+}
+.focus .container img {
+    width:100%;
+}
+.focus .popup_close img {
+    position: absolute;
+    width:60px;
+    height: 60px;
+    top:50px;
+    right:50px;
+}
+/*깜빡임효과*/
+
+.blinking{ 
+    -webkit-animation:blink 0.5s ease-in-out infinite alternate; 
+    -moz-animation:blink 0.5s ease-in-out infinite alternate; 
+    animation:blink 0.5s ease-in-out infinite alternate;
+}
+@-webkit-keyframes blink{ 0% {opacity:0;} 100% {opacity:1;} }
+@-moz-keyframes blink{ 0% {opacity:0;} 100% {opacity:1;} }
+@keyframes blink{ 0% {opacity:0;} 100% {opacity:1;} }
+
+
+.rotate{ 
+    -webkit-animation:rotate 1.5s ease-in-out infinite alternate; 
+    -moz-animation:rotate 1.5s ease-in-out infinite alternate; 
+    animation:rotate 1.5s ease-in-out infinite alternate;
+}
+@-webkit-keyframes rotate{ 0% {transform:rotate(-180deg);} 100% {transform:rotate(0);} }
+@-moz-keyframes rotate{ 0% {transform:rotate(-180deg);} 100% {transform:rotate(0);} }
+@keyframes rotate{ 0% {transform:rotate(-180deg);} 100% {transform:rotate(0);} }
+
+.jump{ 
+    -webkit-animation:translate 1.5s ease-in-out infinite alternate; 
+    -moz-animation:translate 1.5s ease-in-out infinite alternate; 
+    animation:translate 1.5s ease-in-out infinite alternate;
+}
+@-webkit-keyframes translate{ 0% {transform: translate(-20%);} 100% {transform: translate(-10%);} }
+@-moz-keyframes translate{ 0% {transform: translate(-20%);} 100% {transform: translate(-10%);} }
+@keyframes translate{ 0% {transform: translate(-20%);} 100% {transform: translate(-10%);} }
+
+/*모바일*/
+@media screen and (max-width:480px){
+    p {font-size:5vw;}
+    .center-image {
+        width:50vw;
+        top:30%;
+        left:50%;
+    }
+    section {
+        height:760px;
+    }
+    .s1 .logo {
+        width:80vw;
+        padding-top:60vw;
+    }
+    .s1 .logo img {
+        width:80vw;
+    }
+    .s1 .scroll {
+        width:12vw;
+        margin-top:50vw;
+    }
+    .s1 .scroll img {
+        width:12vw;
+    }
+    .t1 {
+        width:50%;
+        float:none;
+        margin-bottom:5vw;
+        margin-left:2vw;
+    }
+    .t2 {
+        width:50%;
+        float:none;
+        margin-left:2vw;
+    }
+    .txt-right {
+        float:none;
+    }
+    .txt-left {
+        float:none;
+    }
+    .portfolio {
+        margin-top:0;
+        float:none;
+        width:100%;
+        margin-bottom:5vw;
+    }
+    .portfolio h3 {
+        font-size: 6vw;
+    }
+    .portfolio p {
+        font-size:4vw;
+    }
+    .info h3 {
+        font-size:4vw;
+    }
+    .info p {
+        font-size:3vw;
+        line-height: 4vw;
+    }
+    .swiper1 {
+        display: none;
+    }
+    .swiper2 {
+        width:100vw;
+        height:130vw;
+        display: block;
+        position: relative;
+        z-index: 150;
+    }
+    .s9 {
+        height:100vw;
+    }
+    .s9 img {
+        margin-top:53vw;
+    }
+    .s11 {
+        height:100vw;
+    }
+    .s11 .design {
+        float:none;
+        width:100%;
+    }
+    .s11 .design ul {
+        width:90vw;
+        margin: 0 auto;
+        margin-left:0;
+    }
+    .s11 .design ul li {
+        float:left;
+        width:40vw;
+    }
+    .s11 .design ul li img {
+        width:100%;
+    }
+    footer {
+        height:5vw;
+    }
+    footer p {
+        line-height: 5vw;
+        font-size:2.5vw;
+    }
+    .focus .container {
+        width:100%;
+        margin:0 auto;
+        margin-top:50vw;
+    }
+    .focus .popup_close img {
+        position: absolute;
+        width:40px;
+        height: 40px;
+        top:10%;
+        right:45%;
+    }
+}

@@ -1,0 +1,35 @@
+.scroll1 {
+  background-color: white;
+  height: 200vh;
+  margin: 0;
+}
+#test1 {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-size: 5em;
+  font-family: Arial;
+  font-weight: bold;
+}
+
+#test2 {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-size: 5em;
+  font-family: Arial;
+  font-weight: bold;
+}
+.span1 {
+  background: linear-gradient(-60deg, rgba(0,0,0, 0) 33.3%, rgba(0,0,0, 1) 66.7%);
+  background-size: 300% 100%;
+  background-position-x: calc(100% - var(--percentage));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
